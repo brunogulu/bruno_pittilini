@@ -316,21 +316,6 @@ body {
   fill: #fff;
 }
 
-.main .hero__image {
-  position: absolute;
-  width: 70%;
-  top: 0;
-  left: 0;
-  margin-top: 15.5em;
-}
-
-.main .hero__image img {
-  float: right;
-  width: 475px;
-  height: 370px;
-  margin-right: -200px;
-}
-
 .main__social--phone {
   display: none;
 }
@@ -1741,9 +1726,9 @@ body {
   .about-me {
     background: white;
     margin: 0 auto;
-    padding-bottom: 3rem;
+    padding: 3rem 0;
   }
-  .about-me h1 {
+  .about-me h1, .about-me h2 {
     color: #1c2321;
   }
   .about-me__bio {
