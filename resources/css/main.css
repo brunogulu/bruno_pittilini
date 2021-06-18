@@ -1739,11 +1739,19 @@ body {
             transform: scale(1.3);
   }
   .about-me {
+    background: white;
     margin: 0 auto;
+    padding-bottom: 3rem;
+  }
+  .about-me h1 {
+    color: #1c2321;
   }
   .about-me__bio {
     font-size: 0.8em;
     line-height: 1.35;
+  }
+  .about-me__bio p {
+    color: #1c2321;
   }
   .studies {
     margin: 3rem auto 0 auto;

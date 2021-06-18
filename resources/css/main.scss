@@ -1441,11 +1441,21 @@ body {
 
   //Section "about-me"
   .about-me {
+    background: white;
     margin: 0 auto;
+    padding-bottom: 3rem;
+
+    h1 {
+      color: $color-gris;
+    }
 
     &__bio {
       font-size: 0.8em;
       line-height: 1.35;
+
+      p {
+        color: $color-gris;
+      }
     }
   }
 
